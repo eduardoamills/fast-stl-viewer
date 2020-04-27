@@ -1,0 +1,29 @@
+@import '~antd/dist/antd.css';
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+#root,.App, .container {
+  text-align: center;
+  height: 100%;
+}
+
+.centered {
+  margin-left: auto;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  display: block;
+  margin-right: auto;
+  left: 50%;
+}
+.dropZoneInner {
+  background-color: #f0f0f0;
+  border: 1px dashed #d9d9d9;
+  position: relative;
+  left: -50%;
+  padding: 25px;
+}
+.dropZoneInner:hover {
+  border-color: #40a9ff;
+}
